@@ -1,0 +1,77 @@
+.qualify-admission-box {
+    background-color: #aae0f9;
+    text-align: center;
+    padding: 14px 1px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #212529;
+    font-size: 28px;
+}
+
+.Vipul-Venkataraman-immediately {
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    margin-top: 15px;
+}
+
+.Wishto-enrol {
+    padding: 10px;
+}
+
+.Vipul-Venkataraman-immediately h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #cf000f;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.Unravelling-Hidden p {
+    margin-bottom: 0px;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    padding: 14px 6px;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.IPEC-width-100 {
+    width: 100%;
+}
+
+.Unravelling-Hidden {
+    background-color: #0d4da1;
+}

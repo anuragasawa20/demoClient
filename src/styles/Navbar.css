@@ -1,0 +1,143 @@
+#top-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #c4171b;
+    height: 31px;
+    box-shadow: 0;
+}
+
+.top-link-right {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    float: right;
+}
+
+.contact-container-top {
+    margin: 0;
+    padding: 0 0px 0 0;
+    width: auto;
+    float: right;
+    margin-left: auto;
+}
+
+.contact-container-top ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container-top ul li {
+    display: inline-block;
+    color: #ffcc01;
+    font: bold 12px/31px 'Open Sans';
+    text-align: left;
+    padding: 0 20px;
+}
+
+.contact-container-top ul li a {
+    font: bold 12px/31px 'Open Sans';
+    text-align: left;
+    text-decoration: none;
+    color: #ffcc01;
+    padding: 0;
+}
+
+.contact-container-top ul li .reg-style {
+    font: bold 12px/31px 'Open Sans' !important;
+    text-align: left;
+    text-decoration: none;
+    color: #ffcc01;
+    padding: 0 3px;
+}
+
+.contact-container-top ul .register-with-us {
+    font: normal 12px/31px 'Open Sans' !important;
+    padding: 0 24px;
+}
+
+@media (max-width: 768px) {
+    .contact-container-top ul li {
+        padding: 0 10px;
+    }
+
+    .contact-container-top ul .register-with-us {
+        display: none;
+    }
+}
+
+.nav-outer-mobile {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #2e2e2e;
+}
+
+.nav-outer-style {
+    margin: 0 auto;
+    padding: 0;
+    width: 98%;
+    max-width: 1258px;
+}
+
+#ddmenu {
+    display: block;
+    text-align: left;
+    letter-spacing: normal;
+}
+
+#ddmenu,
+#ddmenu div {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+#ddmenu ul {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 0;
+    background: #2e2e2e;
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    z-index: 999999990;
+    visibility: hidden;
+    border-radius: 0;
+}
+
+#ddmenu li {
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    font-family: 'Open Sans';
+    display: inline-block;
+    position: relative;
+    color: #EEF4FB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#ddmenu a {
+    color: #e0e0e0;
+    padding: 0 17px;
+    line-height: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    outline: 0;
+    position: relative;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}

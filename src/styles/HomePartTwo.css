@@ -1,0 +1,68 @@
+section {
+    display: block;
+}
+
+.auto-log0-continer {
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+    width: 95%;
+    max-width: 1200px;
+}
+
+.fiitjee_eschool_img {
+    width: 100%;
+}
+
+.admission-test-date-box {
+    text-align: center;
+    color: #fff;
+    box-shadow: none;
+    width: 100%;
+    margin: 21px 0 0 auto;
+}
+
+.test-date-box-head {
+    background-color: #ffffff;
+    border: 6px solid #d81921;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.test-date-box-head {
+    background-color: #ffffff;
+    border: 6px solid #d81921;
+}
+
+.january-31-date {
+    text-align: center;
+    width: 100%;
+    background-color: #d81921;
+}
+
+.january-31-date {
+    text-align: center;
+    width: 100%;
+    background-color: #d81921;
+}
+
+.Dear-Students-ul-p p {
+    font-size: 12px;
+    color: #000;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

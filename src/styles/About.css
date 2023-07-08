@@ -1,0 +1,65 @@
+.Heading-page-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.Heading-page-container h2 {
+    font: bold 26px;
+    text-transform: uppercase;
+    color: #2e2e2e;
+    display: block;
+    border-bottom: 1px dotted #b0b5b5;
+    letter-spacing: -1px;
+    margin-bottom: 15px;
+}
+
+#inner-CMS-container {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1000px;
+    /* Adjust the maximum width as needed */
+}
+
+.inner-page-cms-three-part {
+    display: flex;
+}
+
+.Left-cms-container {
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    /* Adjust the width as desired */
+}
+
+.middle-cms-container {
+    margin: 0;
+    padding: 0;
+    width: 75%;
+    /* Adjust the width as desired */
+    min-height: 600px;
+    border: none;
+}
+
+.middle-inner-content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bottom-menu-style-mobile {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.arrow-style {
+    list-style-type: square;
+}
+
+.arrow-style li {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
