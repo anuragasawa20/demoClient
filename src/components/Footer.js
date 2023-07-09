@@ -8,8 +8,8 @@ const Footer = () => {
         <>
             <footer className="footer">
                 <div className="container">
-                    <div className="grid grid-cols-2">
-                        <div>
+                    <div className="row">
+                        <div className="col-md-6 col-lg-6 col-xl-6">
                             <h3>Institute of Pre Engineering Coaching</h3>
                             <ul>
                                 <li>
@@ -29,9 +29,8 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div>
-
-                            <div className="flex space-x-4">
+                        <div className="col-md-6 col-lg-6 col-xl-6">
+                            <div className="d-flex justify-content-center justify-content-md-end mb-4">
                                 <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                                     <img
                                         src="https://zetapp.in/_next/static/media/linkedin.99e56649.svg"
@@ -73,9 +72,9 @@ const Footer = () => {
                                     />
                                 </a>
                             </div>
-                        </div>
-                        <div className="footer-contact">
-                            <p>Contact: +91-9999999999 | Email: example@email.com</p>
+                            <div className="text-center text-md-end">
+                                <p>Contact: +91-9999999999 | Email: example@email.com</p>
+                            </div>
                         </div>
                     </div>
                 </div>

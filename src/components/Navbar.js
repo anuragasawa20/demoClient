@@ -19,7 +19,7 @@ const Navbar = () => {
     return (
         <>
             {/* Navbar One */}
-            <div id="top-container">
+            <div id="top-container" className="top-container">
                 <div className="auto-div-position-container">
                     <div className="top-link-right mr-20">
                         <div className="contact-container-top">
@@ -40,6 +40,7 @@ const Navbar = () => {
                 </div>
                 <div className="clear"></div>
             </div>
+
 
             <div>
                 <img src={logo} className="logo-image" alt="logo" style={{ width: "15%" }} />

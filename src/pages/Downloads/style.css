@@ -1,87 +1,95 @@
-.parent-div{
-    margin:2rem;
+.parent-div {
+  margin: 2rem;
 }
+
 .outer-container {
-    display: flex;
+  display: flex;
 }
 
 .inner-div1 {
-    flex: 1;
-    padding: 1rem;
-    border-right: thin dotted #888;
+  flex: 1;
+  padding: 1rem;
+  border-right: thin dotted #888;
 }
 
 .inner-div2 {
-    flex: 4;
-    padding: 1rem;
+  flex: 4;
+  padding: 1rem;
 }
 
 .inner-div1 a,
 .inner-div2 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 .inner-div1 ul,
 .inner-div2 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .inner-div1 ul li a {
-    font-weight: bold;
-    color: black;
+  font-weight: bold;
+  color: black;
 }
 
 .inner-div2 p {
-    font-weight: bolder;
-    color: red;
-    cursor: pointer;
-    background-color: #e6e3e3;
-    padding: 0.2rem;
-    margin: 0.5rem;
+  font-weight: bolder;
+  color: red;
+  cursor: pointer;
+  background-color: #e6e3e3;
+  padding: 0.2rem;
+  margin: 0.5rem;
 }
 
-#super-head{
-    border-bottom: thin dotted #888;
+#super-head {
+  border-bottom: thin dotted #888;
 }
 
 .toggle-icon {
-    font-weight: bolder;
-    color: black;
+  font-weight: bolder;
+  color: black;
+}
+
+.dropdown p {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown p:hover {
+  color: darkred;
+}
+
+.dropdown p:hover::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: darkred;
+}
+
+.inner-div1 ul li a {
+  border-bottom: 1px dotted #000;
+  display: block;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .outer-container {
+    flex-direction: column;
   }
 
-  .dropdown p {
-    position: relative;
-    cursor: pointer;
+  .inner-div1,
+  .inner-div2 {
+    border: none;
+    padding: 0;
+    margin-bottom: 1rem;
   }
-  
-  .dropdown p:hover {
-    color: darkred;
-  }
-  
-  .dropdown p:hover::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: darkred;
-  }
-  .inner-div1 ul li a {
-    border-bottom: 1px dotted #000;
-    display: block;
-    width: 100%;
-    padding-bottom: 5px;
-  }
-  
-  
-  
 
-  @media (max-width: 768px) {
-    .inner-div1 {
-      display: none;
-    }
+  .inner-div2 {
+    flex: initial;
   }
-  
-  
+}

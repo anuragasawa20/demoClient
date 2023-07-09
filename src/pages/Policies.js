@@ -3,8 +3,8 @@ import '../styles/Policies.css';
 
 const Policies = () => {
     return (
-        <div>
-            <div>
+        <>
+            <div className='container'>
                 <div id="inner-CMS-continer">
                     <div className="Heading-page-continer">
                         <h2>
@@ -161,7 +161,7 @@ const Policies = () => {
                     <div className="bottm-line-top"></div>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

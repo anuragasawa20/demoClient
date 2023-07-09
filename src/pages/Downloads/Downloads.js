@@ -1,8 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import './style.css';
 
 const Downloads = () => {
-
     const [activeIndex, setActiveIndex] = useState(null);
 
     const toggleLinks = (index) => {
@@ -14,17 +13,22 @@ const Downloads = () => {
     };
 
     return (
-        <div class="parent-div">
-
-            <h1 id='super-head'>Downloads/ALL</h1>
+        <div className="parent-div">
+            <h1 id="super-head">Downloads/ALL</h1>
 
             <div className="outer-container">
                 <div className="inner-div1">
                     <h1>Downloads</h1>
                     <ul>
-                        <li><a href="#">Download File 1</a></li>
-                        <li><a href="#">Download File 2</a></li>
-                        <li><a href="#">Download File 3</a></li>
+                        <li>
+                            <a href="#">Download File 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Download File 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Download File 3</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -37,9 +41,15 @@ const Downloads = () => {
                             </p>
                             {activeIndex === 1 && (
                                 <ul>
-                                    <li><a href="#">Link 1</a></li>
-                                    <li><a href="#">Link 2</a></li>
-                                    <li><a href="#">Link 3</a></li>
+                                    <li>
+                                        <a href="#">Link 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Link 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Link 3</a>
+                                    </li>
                                 </ul>
                             )}
                         </div>
@@ -49,9 +59,15 @@ const Downloads = () => {
                             </p>
                             {activeIndex === 2 && (
                                 <ul>
-                                    <li><a href="#">Link 4</a></li>
-                                    <li><a href="#">Link 5</a></li>
-                                    <li><a href="#">Link 6</a></li>
+                                    <li>
+                                        <a href="#">Link 4</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Link 5</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Link 6</a>
+                                    </li>
                                 </ul>
                             )}
                         </div>
@@ -61,9 +77,15 @@ const Downloads = () => {
                             </p>
                             {activeIndex === 3 && (
                                 <ul>
-                                    <li><a href="#">Link 7</a></li>
-                                    <li><a href="#">Link 8</a></li>
-                                    <li><a href="#">Link 9</a></li>
+                                    <li>
+                                        <a href="#">Link 7</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Link 8</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Link 9</a>
+                                    </li>
                                 </ul>
                             )}
                         </div>
@@ -73,6 +95,5 @@ const Downloads = () => {
         </div>
     );
 };
-
 
 export default Downloads;
