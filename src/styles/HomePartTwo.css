@@ -43,6 +43,13 @@ a:-webkit-any-link {
     background-color: #d81921;
 }
 
+@media (max-width: 720px) {
+    .my-heading {
+        font-size: 26px;
+        line-height: 45px;
+    }
+}
+
 .january-31-date {
     text-align: center;
     width: 100%;

@@ -36,7 +36,7 @@
     color: #ffcc01;
     font: bold 12px/31px 'Open Sans';
     text-align: left;
-    padding: 0 20px;
+    padding: 0 12px;
 }
 
 .contact-container-top ul li a {
@@ -55,7 +55,12 @@
     padding: 0 3px;
 }
 
-.contact-container-top ul .register-with-us {
+
+.register-with-us{
+    margin-right: 70px;
+}
+
+.contact-container-top ul{
     font: normal 12px/31px 'Open Sans' !important;
     padding: 0 24px;
 }

@@ -38,12 +38,12 @@ const HomePartOne = ({ linkUrl, imageUrl, altText }) => {
                                                     color: "#064163"
                                                 }}
                                                 >
-                                                    Result Declared
+                                                    Result Declared : Check your Results of Admission Scholarship Test
                                                 </strong></td>
                                         </tr>
                                         <tr>
                                             <td colSpan="2">
-                                                <strong>Class XI &amp; XII Pass <a href="/login" target="_blank"
+                                                <strong>Class IX,Class X,Class XI &amp; XII Pass <a href="/login" target="_blank"
                                                     style={{
                                                         color: "#f00",
                                                         fontSize: "15px"
@@ -70,9 +70,12 @@ const HomePartOne = ({ linkUrl, imageUrl, altText }) => {
                                     margin: '0px 10px',
                                     fontFamily: 'Calibri',
                                     fontWeight: 800,
+                                    marginBottom: '20px'
+                                    , marginTop: '20px'
+
                                 }}
                             >
-                                <p style={{ fontSize: '15px', color: '#000', padding: '10px', textAlign: 'center' }}>
+                                <p style={{ fontSize: '15px', color: '#000', padding: '2px', marginBottom: '10px', textAlign: 'center' }}>
                                     <strong>
                                         {/* {resultText} */}
                                         Result Declared: To know Your result of Scholarship Cum Admission Test (21st May, 28th May, 4th June,

@@ -13,7 +13,9 @@ const HomePartTwo = ({ scholarshipImage, allIndiaRankImage }) => {
                             <div className="test-date-box-head">
                                 <div className="sunday-29-date-box-main">
                                     <div className="january-31-date">
-                                        <h1 style={{ color: "#fff", textShadow: "0px 1px 1px #000", fontFamily: "Arial Black", fontSize: "42px", lineHeight: "56px" }}>
+                                        <h1 className='myheading' style={{
+                                            color: "#fff", textShadow: "0px 1px 1px #000", fontFamily: "Arial Black", fontSize: "42px", lineHeight: "56px",
+                                        }}>
                                             <strong>
                                                 <span style={{ color: "#ffffff" }}>Is JEE 2024 going to be your</span>
                                                 <br />
@@ -35,7 +37,7 @@ const HomePartTwo = ({ scholarshipImage, allIndiaRankImage }) => {
                                         <p style={{ fontSize: "8px", textAlign: "center", color: "#ffffff", marginBottom: "0px", padding: "5px", marginTop: "0", float: "right" }}>
                                             *Last 5 years
                                         </p>
-                                        
+
                                         <img src={allIndiaRankImage} alt="All India Rank" style={{ width: "57%", margin: "0 auto" }} />
                                         <p style={{ fontSize: "16px", textAlign: "center", color: "#d81921", marginBottom: "0px", lineHeight: "18px", padding: "12px", background: "#ffffff" }}>
                                             <strong>Give yourself an ideal start for an optimum success in JEE Main &amp; JEE Advanced 2024</strong>
@@ -71,7 +73,7 @@ const HomePartTwo = ({ scholarshipImage, allIndiaRankImage }) => {
                                         <p style={{ fontSize: "8px", textAlign: "center", color: "#ffffff", marginBottom: "0px", padding: "5px", marginTop: "0", float: "right" }}>
                                             *Last 5 years
                                         </p>
-                                        
+
                                         <img src={allIndiaRankImage} alt="All India Rank" style={{ width: "70%", margin: "0 auto" }} />
                                     </div>
                                     <p style={{ fontSize: "10px", textAlign: "center", color: "#d81921", marginBottom: "0px", lineHeight: "18px", padding: "6px", margin: "0", background: "#ffffff" }}>
