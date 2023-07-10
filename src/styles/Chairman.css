@@ -1,0 +1,42 @@
+.parent-div {
+    /* Existing styles */
+
+    /* Add the following styles */
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.outer-container {
+    /* Existing styles */
+
+    /* Add the following styles */
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-div1 {
+    /* Existing styles */
+
+    /* Add the following styles */
+    flex-basis: 100%;
+}
+
+.content {
+    /* Existing styles */
+
+    /* Add the following styles */
+    flex-basis: 100%;
+    overflow: auto;
+}
+
+/* Add a media query for small screens */
+@media (max-width: 768px) {
+    .outer-container {
+        flex-direction: column-reverse;
+    }
+
+    .inner-div1,
+    .content {
+        flex-basis: 100%;
+    }
+}

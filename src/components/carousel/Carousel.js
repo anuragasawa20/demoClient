@@ -36,21 +36,21 @@ const Carousel = () => {
                 <div className="carousel-item active">
                     <img
                         src={demoImage1}
-                        className="d-block mx-auto img-fluid"
+                        className="d-block w-100"
                         alt="Slide 1"
                     />
                 </div>
                 <div className="carousel-item">
                     <img
                         src={demoImage2}
-                        className="d-block mx-auto img-fluid"
+                        className="d-block w-100"
                         alt="Slide 2"
                     />
                 </div>
                 <div className="carousel-item">
                     <img
                         src={demoImage3}
-                        className="d-block mx-auto img-fluid"
+                        className="d-block w-100"
                         alt="Slide 3"
                     />
                 </div>
